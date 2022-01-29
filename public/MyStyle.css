@@ -1,0 +1,39 @@
+body{
+	background-color: purple;
+
+}
+
+#main {
+	max-width: 640px;
+	margin: 30px auto;
+
+	display: flex;
+}
+
+#container {
+	width: 60%;
+	height: 60%;
+	border: 5px solid green;
+	border-radius: 10px;
+	background-color: #e9e9e9;
+	padding: 15px;
+	margin: 10px;
+}
+
+#chat_area {
+	width: 100%;
+	height: 400px;
+}
+
+#send:hover{
+	
+	font-size: 18pt;
+	color: blue;
+	border-radius: 5px;
+}
+
+#userImg {
+	width: 120px;
+	height: 120px;
+	margin-left: 20px;
+}

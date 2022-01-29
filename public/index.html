@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+	<title> iChat </title>
+	<link href = "MyStyle.css" rel= "stylesheet" />
+	<script src = "jquery-3.3.1.min.js"></script>
+	<script src = "socket.io.js"></script>
+	<script src = "MyScript.js"></script>
+
+</head>
+<body> 
+   <div id= "main">
+	<div id= "container"> 
+		<h2>Messages</h2>
+
+		<div id= "chat-area"> 
+			<div id= "output_msg"></div>
+		</div>
+
+		<div id= "input"> 
+			<input id= "message" placeholder= "Your Message" size= "30" />
+			<input id= "uploadFile" name= "uploadFile" type= "file" />
+		</div>
+
+		<button id= "send">Send</button>
+	</div>
+
+   </div>
+</body>
+</html>
